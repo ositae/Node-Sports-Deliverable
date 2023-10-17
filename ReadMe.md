@@ -1,0 +1,1 @@
+<!-- Make an app that records the first draft picks by the NBA and the teams drafting. The record sould start from 1970 to present. -->
