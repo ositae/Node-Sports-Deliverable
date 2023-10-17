@@ -4,27 +4,13 @@ const app = express(); //  instance of the app
 
 const fs = require('fs');
 
-
-
-
-// test using the core module (fs)
-
-fs.readFile('players.txt', 'teams.txt', 'utf8', (error, data) => {
-
-    if(error){
-
-        console.log("Error: ", error);
-
-        } else{
-
-            console.log(data);
-
-        };
-
+fs.readFile('players.txt', 'utf8', (error, data) => {
+    if (error){
+        console.log("Error: ", error)
+    }else {
+        console.log(data);
+    };
 })
-
-
-
 
 
 
