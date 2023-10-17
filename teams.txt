@@ -1,0 +1,56 @@
+Teams with first draft picks since 1970
+
+1970	Detroit Pistons	
+1971	Cleveland Cavaliers	
+1972	Portland Trail Blazers	
+1973	Philadelphia 76ers
+1974	Portland Trail Blazers	
+1975	Atlanta Hawks	
+1976	Houston Rockets	
+1977	Milwaukee Bucks	
+1978	Portland Trail Blazers	
+1979	Los Angeles Lakers	
+1980	Golden State Warriors	
+1981	Dallas Mavericks	
+1982	Los Angeles Lakers	
+1983	Houston Rockets	
+1984	Houston Rockets	
+1985	New York Knicks	
+1986	Cleveland Cavaliers	
+1987	San Antonio Spurs	
+1988	Los Angeles Clippers	
+1989	Sacramento Kings	
+1990	New Jersey Nets
+1991	Charlotte Hornets	
+1992	Orlando Magic	
+1993	Orlando Magic
+1994	Milwaukee Bucks	
+1995	Golden State Warriors	
+1996	Philadelphia 76ers
+1997	San Antonio Spurs	
+1998	Los Angeles Clippers	
+1999	Chicago Bulls	
+2000	New Jersey Nets	
+2001	Washington Wizards	
+2002	Houston Rockets	
+2003	Cleveland Cavaliers	
+2004	Orlando Magic	
+2005	Milwaukee Bucks	
+2006	Toronto Raptors	
+2007	Portland Trail Blazers	
+2008	Chicago Bulls	
+2009	Los Angeles Clippers	
+2010	Washington Wizards	
+2011	Cleveland Cavaliers	
+2012	New Orleans Hornets	
+2013	Cleveland Cavaliers
+2014	Cleveland Cavaliers	
+2015	Minnesota Timberwolves	
+2016	Philadelphia 76ers
+2017	Philadelphia 76ers
+2018	Phoenix Suns
+2019	New Orleans Pelicans
+2020	Minnesota Timberwolves
+2021	Detroit Pistons
+2022	Orlando Magic
+2023	San Antonio Spurs
