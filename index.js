@@ -11,22 +11,6 @@ app.get('/', (req, res) => {
     return res.json({ message: 'Welcome to my Node App' })
 });
 
-// fs.readFile('teams.txt', 'utf8', (error, data) => {
-//     if (error) {
-//         console.log("Error: ", error)
-//     } else {
-//         console.log(data);
-//     };
-// })
-
-
-
-// using core modules and req.query
-
-// Example: localhost:8000/read?something=story
-
-// {something: 'story'}
-
 app.get('/read', (req, res) => {
 
     // grab a query string
@@ -60,7 +44,7 @@ app.get('/players', (req, res) => {
 
 // read team names 
 app.get('/teams', (req, res) => {
-    return res.json ({message: "Number 1 Draft Picks since 1970"});
+    return res.json ({message: "Teams With Number 1 Draft Picks since 1970"});
 });
 
 // set up a PORT number, and listen for server

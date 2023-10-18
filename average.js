@@ -1,3 +1,4 @@
+const arr = [];
 function average(sum){
 let sum = 0;
 for (let i = 0; i < arr.length; i++) {
@@ -5,6 +6,7 @@ for (let i = 0; i < arr.length; i++) {
 return (sum / arr.length);
         }
     } 
-average();
 
-modules.exports({})
+modules.exports({
+    average
+})
