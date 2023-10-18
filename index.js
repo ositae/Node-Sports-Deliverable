@@ -4,10 +4,17 @@ const app = express(); //  instance of the app
 
 const fs = require('fs');
 
+// home route
+app.get('/', (req, res) => {
+    
+
+    return res.json({ message: 'Welcome to my Node App' })
+});
+
 fs.readFile('teams.txt', 'utf8', (error, data) => {
-    if (error){
+    if (error) {
         console.log("Error: ", error)
-    }else {
+    } else {
         console.log(data);
     };
 })
@@ -34,11 +41,11 @@ app.get('/read', (req, res) => {
 
         if (error) {
 
-            return res.json({message: 'There is an issue. Try again!'})
+            return res.json({ message: 'There is an issue. Try again!' })
 
         } else {
 
-            return res.json({message: data});
+            return res.json({ message: data });
 
         }
 
