@@ -4,11 +4,23 @@ const app = express(); //  instance of the app
 
 const fs = require('fs');
 
+const { averagePoints } = require('./average');
+
 // home route
 app.get('/', (req, res) => {
     
 
     return res.json({ message: 'Welcome to my Node App' })
+});
+
+app.get('/average/:num1/:num2/:num3/:num4/:num5/', (req, res) => {
+    let num1 = Number(req.params.num1);
+    let num2 = Number(req.params.num2);
+    let num3 = Number(req.params.num3);
+    let num4 = Number(req.params.num4);
+    let num5 = Number(req.params.num5);
+    let average = averagePoints(num1, num2, num3, num4, num5);
+    return res.json ({ average: average});
 });
 
 app.get('/read', (req, res) => {
