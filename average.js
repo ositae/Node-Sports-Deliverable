@@ -6,3 +6,5 @@ return (sum / arr.length);
         }
     } 
 average();
+
+modules.exports({})

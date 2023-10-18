@@ -11,13 +11,13 @@ app.get('/', (req, res) => {
     return res.json({ message: 'Welcome to my Node App' })
 });
 
-fs.readFile('teams.txt', 'utf8', (error, data) => {
-    if (error) {
-        console.log("Error: ", error)
-    } else {
-        console.log(data);
-    };
-})
+// fs.readFile('teams.txt', 'utf8', (error, data) => {
+//     if (error) {
+//         console.log("Error: ", error)
+//     } else {
+//         console.log(data);
+//     };
+// })
 
 
 
@@ -35,7 +35,7 @@ app.get('/read', (req, res) => {
 
     // return the data that comes from the txt file
 
-    let element = req.query.something; // players, teams
+    let element = req.query.search; // players, teams
 
     fs.readFile(`${element}.txt`, 'utf-8', (error, data) => {
 
@@ -52,6 +52,16 @@ app.get('/read', (req, res) => {
     });
 
 })
+
+// read number one draft picks
+app.get('/players', (req, res) => {
+    return res.json ({message: "Number 1 Draft Picks since 1970"});
+});
+
+// read team names 
+app.get('/teams', (req, res) => {
+    return res.json ({message: "Number 1 Draft Picks since 1970"});
+});
 
 // set up a PORT number, and listen for server
 
