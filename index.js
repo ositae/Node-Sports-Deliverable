@@ -1,8 +1,7 @@
 const express = require('express'); // third party node module
-
 const app = express(); //  instance of the app
-
 const fs = require('fs');
+const {} = require('./average');
 
 // home route
 app.get('/', (req, res) => {
@@ -19,7 +18,9 @@ fs.readFile('teams.txt', 'utf8', (error, data) => {
     };
 })
 
-
+app.get('/legend', (req, res) => {
+    return res.json({message: 'Kobe Bryant' })
+})
 
 // using core modules and req.query
 
